@@ -10,13 +10,6 @@ import ru.itis.mq.app.repository.MessageRepository;
 
 import java.io.IOException;
 
-/**
- * 16.07.2018
- * Receiver
- *
- * @author Sidikov Marsel (First Software Engineering Platform)
- * @version v1.0
- */
 @Component
 public class Receiver {
 
@@ -38,7 +31,6 @@ public class Receiver {
                     .build();
             message = messageRepository.save(message);
             System.out.println(message);
-            System.out.println("Id: " + message.getId());
         } catch (IOException e) {
             throw new IllegalArgumentException(e);
         }

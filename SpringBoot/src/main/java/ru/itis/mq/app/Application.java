@@ -5,14 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-/**
- * 16.07.2018
- * ru.itis.mq.app.Application
- *
- * @author Sidikov Marsel (First Software Engineering Platform)
- * @version v1.0
- */
-
 @SpringBootApplication
 public class Application {
 
